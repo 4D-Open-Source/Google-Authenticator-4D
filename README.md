@@ -26,11 +26,7 @@ After the user enters their password call the `Validate` method. In this case yo
 
 Example code for this:
 ```
-$params:=New object
-$params.appSecret:="thx1138"
-
-  //  this is called after they enter their password
-If (Validate ($params))
+If (Validate (New object("appSecret";"thx1138")))
 	ALERT("User Validates!")
 Else 
 	ALERT("User not validated.")
