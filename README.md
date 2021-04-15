@@ -4,7 +4,7 @@
 ## Setting up
 This is called pairing and you use the `Pair` method. It is required one time but may be called more, for example if a user gets a new phone. The user simply needs to download the app to their phone, open it and click the add button. 
 
-You passd an object to the `Pair` method containig 3 values: 
+You pass an object to the `Pair` method containig 3 values: 
 - your application name
 - the user name
 - a secret specific to the user. A UUID is a good candidate but any string will do. 
