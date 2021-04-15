@@ -1,0 +1,12 @@
+﻿{
+	"forms": {
+		"validate_dlog": {
+			"timeStamp": "2021-04-15T03:33:23.238Z",
+			"destination": "detailScreen"
+		},
+		"pair_dlog": {
+			"timeStamp": "2021-04-15T03:56:18.149Z",
+			"destination": "detailScreen"
+		}
+	}
+}

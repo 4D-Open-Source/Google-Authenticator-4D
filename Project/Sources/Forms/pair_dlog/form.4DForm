@@ -1,0 +1,76 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"WebArea": {
+					"type": "webArea",
+					"left": 69,
+					"top": 160,
+					"width": 300,
+					"height": 300,
+					"bottom": 460
+				},
+				"btn_close": {
+					"type": "button",
+					"text": "Close",
+					"top": 474,
+					"left": 285,
+					"width": 131,
+					"height": 36,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Download the Authenticator app. \r\rOpen it and click the + button. \r\rScan this code.",
+					"top": 9,
+					"left": 27,
+					"width": 389,
+					"height": 138,
+					"fontWeight": "bold",
+					"stroke": "#6495ed",
+					"fontFamily": "Arial",
+					"fontSize": 24
+				}
+			}
+		}
+	],
+	"geometryStamp": 80,
+	"method": "method.4dm"
+}

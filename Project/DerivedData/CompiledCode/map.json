@@ -1,0 +1,29 @@
+﻿{
+	"map": [
+		{
+			"id": 2147483647,
+			"path": "Sources/Methods/Pair.4dm"
+		},
+		{
+			"id": 2147483646,
+			"path": "Sources/Methods/Validate.4dm"
+		},
+		{
+			"id": 2147483645,
+			"path": "Sources/Methods/__readMe.4dm"
+		},
+		{
+			"id": 2147483644,
+			"path": "Sources/Forms/validate_dlog/method.4dm"
+		},
+		{
+			"id": 2147483643,
+			"path": "Sources/Forms/pair_dlog/method.4dm"
+		},
+		{
+			"id": 2147483642,
+			"path": "Sources/Methods/Compiler_Methods.4dm"
+		}
+	],
+	"arch64": true
+}

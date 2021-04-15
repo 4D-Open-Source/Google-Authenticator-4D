@@ -1,0 +1,79 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onClick"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Enter the OTP from Authenticator:",
+					"top": 19,
+					"left": 16,
+					"width": 333,
+					"height": 62,
+					"fontWeight": "bold",
+					"stroke": "#6495ed",
+					"fontFamily": "Arial",
+					"fontSize": 24
+				},
+				"Input": {
+					"type": "input",
+					"left": 53,
+					"top": 88,
+					"width": 267,
+					"height": 29,
+					"dataSource": "Form:C1466.input",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"stroke": "#c0c0c0",
+					"textAlign": "center"
+				},
+				"btn_validate": {
+					"type": "button",
+					"text": "Validate",
+					"top": 139,
+					"left": 232,
+					"width": 131,
+					"height": 36,
+					"events": [
+						"onClick"
+					],
+					"action": ""
+				},
+				"btn_close": {
+					"type": "button",
+					"text": "Close",
+					"top": 139,
+					"left": 12,
+					"width": 131,
+					"height": 36,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel"
+				}
+			}
+		}
+	],
+	"geometryStamp": 63,
+	"method": "method.4dm"
+}
