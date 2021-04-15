@@ -23,7 +23,7 @@ Pair ($params)
 That's it. The user is set up and there is nothing you need to store. 
 
 ## Validating
-After the user enters their password call the `Validate` method. In this case you pass an object with secret for this user. The user has 4 chances to enter the correct authentication code before the method fails. 
+After the user enters their password call the `Validate` method. In this case you pass an object with the secret for this user. The user has 4 chances to enter the correct authentication code before the method fails. 
 
 ![Validate dlog](images/validate.png?raw=true "Validate Dialog")
 
