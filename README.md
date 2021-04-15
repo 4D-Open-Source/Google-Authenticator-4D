@@ -32,6 +32,3 @@ Else
 	ALERT("User not validated.")
 End if 
 ```
-
-`$params.success` is set by `Validate`. 
-
