@@ -18,11 +18,14 @@ $params.appSecret:="thx1138"  //  this should be unique to each user - like thei
 
 Pair ($params)
 ```
+![Pair dlog](images/pair.png?raw=true "Pair Dialog")
 
 That's it. The user is set up and there is nothing you need to store. 
 
 ## Validating
 After the user enters their password call the `Validate` method. In this case you pass an object with secret for this user. The user has 4 chances to enter the correct authentication code before the method fails. 
+
+![Validate dlog](images/validate.png?raw=true "Validate Dialog")
 
 Example code for this:
 ```
