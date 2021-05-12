@@ -1,5 +1,8 @@
 # Google Authenticator 4D
  A 4D implementation of Google Authenticator. This can be compiled into a component or simply incorporated into your v18+ code to allow you to use the [Google Authenticator](https://authenticatorapi.com/). 
+ 
+ ### Limitations
+ This implimentation uses an online service to produce the QR code. This presents a vulnerability in that the QR code could be saved by authenticatorapi.com though they wouldn't know what it's for.
 
 ## Setting up
 This is called pairing and you use the `Pair` method. It is required one time but may be called more, for example if a user gets a new phone. The user simply needs to download the app to their phone, open it and click the add button. 
